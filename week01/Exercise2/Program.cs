@@ -53,7 +53,7 @@ class Program
 
         }
 
-        //Determine the grade sign
+        //Stretched Challenge Determine the grade sign
         int last_digit = (int)Math.Floor(score) % 10;
 
         if (last_digit >= 7)
