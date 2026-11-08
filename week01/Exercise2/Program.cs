@@ -16,6 +16,12 @@ class Program
         Console.WriteLine("What is your percentage score? ");
         score = Convert.ToDouble(Console.ReadLine());
 
+        if (score < 0 || score > 100)
+        {
+            Console.WriteLine("Invalid score. Enter a score between 0 and 100.");
+            return;
+        }
+
         if (score >= 90)
         {
             grade = "A";
@@ -70,7 +76,7 @@ class Program
         }
 
         //Exceptional grades
-        if (grade == "A" && sign == "+" || grade == "F")
+        if ((grade == "A" && (sign == "+" || score == 100)) || grade == "F")
         {
             sign = "";
         }
