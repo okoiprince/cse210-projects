@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the ScriptureMemorizer Project.");
+        string t = "";
+        Reference myReference = new Reference(t, 3, 2);
+        Scripture myScripture = new Scripture(myReference, t);
+        Word myWord = new Word(t);
     }
 }
