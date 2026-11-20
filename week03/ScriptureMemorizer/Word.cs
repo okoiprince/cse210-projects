@@ -34,7 +34,19 @@ public class Word
     {
         if (_isHidden)
         {
-            return new string('_', _text.Length);
+            string hiddenWord = "";
+            foreach(char letter in _text)
+            {
+                if (char.IsPunctuation(letter))
+                {
+                    hiddenWord += letter;
+                }
+                else
+                {
+                    hiddenWord += '_';
+                }
+            }
+            return hiddenWord;
         }
         else
         {
