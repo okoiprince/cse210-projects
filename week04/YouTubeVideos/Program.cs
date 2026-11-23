@@ -8,14 +8,14 @@ class Program
         // Video Details 1
         Video video1 = new Video(
             "Introduction to C# Programming",
-            "John Smith",
-            600
+            "Prince Okoi",
+            700
         );
 
-        video1.AddComment(new Comment("Peter", "Great tutorial!"));
-        video1.AddComment(new Comment("Mary", "Very helpful explanation."));
-        video1.AddComment(new Comment("David", "I learned something new."));
-        video1.AddComment(new Comment("Sarah", "Keep up the good work!"));
+        video1.AddComment(new Comment("Peter", "I love the video!"));
+        video1.AddComment(new Comment("Mary", "Very true and correct."));
+        video1.AddComment(new Comment("David", "Please drop more videos."));
+        video1.AddComment(new Comment("Sarah", "How can I download"));
 
         // Video Details 2
         Video video2 = new Video(
@@ -35,7 +35,7 @@ class Program
             1200
         );
 
-        video3.AddComment(new Comment("John", "Excellent content!"));
+        video3.AddComment(new Comment("Paul", "Excellent content!"));
         video3.AddComment(new Comment("Faith", "I love web development."));
         video3.AddComment(new Comment("Daniel", "Please make more videos."));
         video3.AddComment(new Comment("Esther", "This was very informative."));
@@ -47,9 +47,9 @@ class Program
             750
         );
 
-        video4.AddComment(new Comment("Peter", "Composition is now clear."));
-        video4.AddComment(new Comment("Mary", "Thank you for explaining OOP."));
-        video4.AddComment(new Comment("Samuel", "Great teaching method."));
+        video4.AddComment(new Comment("James", "Composition is now clear for me."));
+        video4.AddComment(new Comment("Jane", "Thank you for explaining OOP."));
+        video4.AddComment(new Comment("Samuel", "Great teacher, you did well."));
 
         // List of videos 
         List<Video> myVideos = new List<Video>();
