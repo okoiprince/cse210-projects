@@ -1,4 +1,4 @@
-
+using System;
 public class Comment
 {
     // Member Variables
@@ -12,7 +12,7 @@ public class Comment
         _commentText = commentText;
     }
 
-    // Getters
+    // Getters for commenter name and text
     public string GetCommenterName()
     {
         return _commenterName;
